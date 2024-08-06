@@ -8,7 +8,7 @@ const Who = () => {
 
     <div className="item flex justify-between items-center my-3 p-2 hover:bg-gray-800 cursor-pointer ">
       <div className='flex gap-2 items-center'>
-      <img className='w-8 h-8 rounded' src="/logo192.png" alt="" />
+      <img className='w-8 h-8 rounded' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCelkmWfnQkGmyWNujbuC9mF04Ww5rGRN1vA&s" alt="" />
       <div>
         <div className="font-bold">React</div>
         <div className="text-gray-600 text-xs">@react</div>
