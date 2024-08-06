@@ -3,7 +3,7 @@ import profile from "../profile.png"
 
 const Sidebar = () => {
   return (
-    <div className="sidebar flex flex-col w-full lg:w-[55%] items-start pr-6 md:pr-2 sticky top-0 h-screen ">
+    <div className="sidebar flex flex-col w-full lg:w-[55%] items-start  md:pr-2 sticky top-0 h-screen ">
     <div className="logo flex justify-start lg:justify-start px-2 pt-3 mb-4">
       <svg className='w-8 invert' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg>
     </div>
@@ -46,7 +46,7 @@ indeterminate_check_box
       <span className=" md:hidden material-symbols-outlined">
 edit
 </span></button>
-        <div className='flex md:hidden my-4 items-center cursor-pointer w-fit  hover:bg-gray-700/40 hover:rounded-full'> <img className='w-10 h-10 rounded-full' src={profile} alt="" /></div>
+        <div className='flex md:hidden my-4 items-center cursor-pointer w-fit  hover:bg-gray-700/40 hover:rounded-full'> <img className='w-9 h-9 rounded-full' src={profile} alt="" /></div>
 
 
 
